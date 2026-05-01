@@ -98,8 +98,8 @@ git push origin main
 | **Environment** | `Node` |
 | **Region** | `Frankfurt (EU Central)` ou plus proche |
 | **Branch** | `main` |
-| **Build Command** | `npm install && npm run build` |
-| **Start Command** | `npm run preview` |
+| **Build Command** | `npm install --include=dev && npm run build` |
+| **Start Command** | `npm run preview -- --host 0.0.0.0 --port 3000` |
 | **Plan** | `Free` (ou payant selon besoins) |
 
 ### 2.3 Ajouter les variables d'environnement
