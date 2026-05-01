@@ -58,7 +58,7 @@ const AdminUsers = () => {
       <div>
         <h1 className="font-display text-3xl font-bold">Users</h1>
         <p className="text-sm text-muted-foreground">
-          Grant or revoke admin access. Users must sign up at <code>/neka_page_connexion_admin/login</code> first, then share their UID with you.
+          Grant or revoke admin access to registered users.
         </p>
       </div>
 
